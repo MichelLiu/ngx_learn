@@ -25,6 +25,7 @@ Test for nginx source code
     First of all, you must make sure your system have already installed graphviz,
     
     [pvtrace](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=88615&filename=pvtrace.zip&method=http&locale=zh_CN)
+    [API.md](http://github.com/iamaleksey/lua-zmq/blob/master/API.md)
     
     % yum install -y graphviz*
     % unzip pvtrace.zip -d pvtrace
