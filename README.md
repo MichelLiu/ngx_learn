@@ -22,10 +22,7 @@ Test for nginx source code
     The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages; PDF or Postscript for inclusion in other documents; or display in an interactive graph browser.  Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes. 
     
     Graphviz is an useful tool, that helps us analyse nginx source code.
-    First of all, you must make sure your system have already installed graphviz,
-    
-    [pvtrace](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=88615&filename=pvtrace.zip&method=http&locale=zh_CN)
-    [API.md](http://github.com/iamaleksey/lua-zmq/blob/master/API.md)
+    First of all, you must make sure your system have already installed graphviz,pvtrace.
     
     % yum install -y graphviz*
     % unzip pvtrace.zip -d pvtrace
@@ -44,3 +41,7 @@ Test for nginx source code
     % pkill nginx
     % pvtrace /usr/local/nginx/sbin/nginx
     % dot -Tjpg graph.dot -o graph.jpg
+    
+    
+## source code
+    [pvtrace](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=88615&filename=pvtrace.zip&method=http&locale=zh_CN)
